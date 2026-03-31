@@ -133,13 +133,13 @@ curl -X POST http://localhost:8002/analyze/now
 curl http://localhost:8002/alerts/recent
 ```
 
-Open the frontend:
 
-```bash
-# just open index.html in your browser — it points to the load balancer by default
-# change the LB variable at the top of the script to http://localhost:8001 for local testing
-open index.html
-```
+Using the CLI (Command line Interface):
+
+  python3 cli.py latest
+  python3 cli.py latest --city Kigali
+  python3 cli.py alerts
+  python3 cli.py poll
 
 ---
 
