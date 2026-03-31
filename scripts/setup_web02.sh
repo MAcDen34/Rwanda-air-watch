@@ -13,7 +13,7 @@ apt update && apt install -y python3.11 python3.11-venv python3-pip git
 # 2. clone repo
 cd /opt
 if [ ! -d "rwanda-air" ]; then
-    git clone https://github.com/YOUR_USERNAME/rwanda-air.git
+    git clone https://github.com/MAcDen34/Rwanda-air-watch.git
 fi
 cd rwanda-air
 

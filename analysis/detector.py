@@ -8,7 +8,7 @@ from shared.config import Z_SCORE_THRESHOLD
 POLLUTANTS = ["pm25", "pm10", "no2", "o3", "co"]
 
 
-async def get_baseline(pool, city: str, pollutant: str, hour: int) -> tuple[float, float] | None:
+async def get_baseline(pool, city: str, pollutant: str, hour: int):
     """
     returns (mean, stddev) for a city+pollutant+hour combo
     looks at the last 7 days of data for that same hour window

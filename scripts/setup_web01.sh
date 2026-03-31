@@ -35,7 +35,7 @@ EOF
 # 3. clone your repo (update this URL)
 cd /opt
 if [ ! -d "rwanda-air" ]; then
-    git clone https://github.com/YOUR_USERNAME/rwanda-air.git
+    git clone https://github.com/MAcDen34/Rwanda-air-watch.git
 fi
 cd rwanda-air
 

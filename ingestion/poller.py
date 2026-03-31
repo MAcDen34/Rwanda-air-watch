@@ -8,7 +8,7 @@ from shared.db import get_pool
 
 # open-meteo is free and doesn't need an API key — nice
 # returns air quality index values for a lat/lon
-async def fetch_open_meteo(city: str, lat: float, lon: float) -> dict | None:
+async def fetch_open_meteo(city: str, lat: float, lon: float):
     url = (
         "https://air-quality-api.open-meteo.com/v1/air-quality"
         f"?latitude={lat}&longitude={lon}"
