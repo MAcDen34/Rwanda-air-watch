@@ -11,7 +11,7 @@ import urllib.error
 from datetime import datetime
 
 # point this at your load balancer or a worker directly
-BASE_URL = "http://18.207.186.124"
+BASE_URL = "http://3.95.187.87:8001"
 
 CITIES = ["Kigali", "Musanze", "Rubavu"]
 
